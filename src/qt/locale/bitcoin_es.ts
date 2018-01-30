@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GamerholicCoin</source>
-        <translation>Acerca de GamerholicCoin</translation>
+        <source>About OWO</source>
+        <translation>Acerca de OWO</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GamerholicCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GamerholicCoin&lt;/b&gt; versión</translation>
+        <source>&lt;b&gt;OWO&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;OWO&lt;/b&gt; versión</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerholicCoin developers</source>
+Copyright © 2014 The OWO developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerholicCoin developers</translation>
+Copyright © 2014 The OWO developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -68,8 +68,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your GamerholicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son las direcciones de GamerholicCoin para recibir pagos. Es posible que desee dar una diferente a cada remitente para que pueda realizar un seguimiento de quien te está pagando.</translation>
+        <source>These are your OWO addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son las direcciones de OWO para recibir pagos. Es posible que desee dar una diferente a cada remitente para que pueda realizar un seguimiento de quien te está pagando.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -83,8 +83,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GamerholicCoin address</source>
-        <translation>Firmar un mensaje para demostrar que es dueño de su dirección de GamerholicCoin</translation>
+        <source>Sign a message to prove you own a OWO address</source>
+        <translation>Firmar un mensaje para demostrar que es dueño de su dirección de OWO</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -98,8 +98,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified GamerholicCoin address</source>
-        <translation>Verifique el mensaje para asegurarse que fue firmado por una dirección específica de GamerholicCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified OWO address</source>
+        <translation>Verifique el mensaje para asegurarse que fue firmado por una dirección específica de OWO</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -266,8 +266,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-58"/>
-        <source>GamerholicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>GamerholicCoin cerrará para terminar el proceso de encriptación. Recuerde que la encriptación de su monedero no puede proteger completamente que sus monedas sean robadas por malware infectando su computadora.</translation>
+        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>OWO cerrará para terminar el proceso de encriptación. Recuerde que la encriptación de su monedero no puede proteger completamente que sus monedas sean robadas por malware infectando su computadora.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -380,8 +380,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about GamerholicCoin</source>
-        <translation>Mostrar información sobre GamerholicCoin</translation>
+        <source>Show information about OWO</source>
+        <translation>Mostrar información sobre OWO</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -430,13 +430,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a GamerholicCoin address</source>
-        <translation>Enviar monedas a una dirección de GamerholicCoin</translation>
+        <source>Send coins to a OWO address</source>
+        <translation>Enviar monedas a una dirección de OWO</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for GamerholicCoin</source>
-        <translation>Modificar las opciones de configuración para GamerholicCoin</translation>
+        <source>Modify configuration options for OWO</source>
+        <translation>Modificar las opciones de configuración para OWO</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -475,8 +475,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-202"/>
-        <source>GamerholicCoin</source>
-        <translation>GamerholicCoin</translation>
+        <source>OWO</source>
+        <translation>OWO</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -485,8 +485,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About GamerholicCoin</source>
-        <translation>Acerca de GamerholicCoin</translation>
+        <source>&amp;About OWO</source>
+        <translation>Acerca de OWO</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -542,13 +542,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>GamerholicCoin client</source>
-        <translation>Cliente GamerholicCoin</translation>
+        <source>OWO client</source>
+        <translation>Cliente OWO</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to GamerholicCoin network</source>
-        <translation><numerusform>%n conexión activa a la red GamerholicCoin</numerusform><numerusform>%n conexiones activas a la red GamerholicCoin</numerusform></translation>
+        <source>%n active connection(s) to OWO network</source>
+        <translation><numerusform>%n conexión activa a la red OWO</numerusform><numerusform>%n conexiones activas a la red OWO</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -587,13 +587,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-312"/>
-        <source>About GamerholicCoin card</source>
-        <translation>Sobre la tarjeta GamerholicCoin</translation>
+        <source>About OWO card</source>
+        <translation>Sobre la tarjeta OWO</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about GamerholicCoin card</source>
-        <translation>Mostrar información sobre la tarjeta GamerholicCoin</translation>
+        <source>Show information about OWO card</source>
+        <translation>Mostrar información sobre la tarjeta OWO</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -672,8 +672,8 @@ Dirección: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GamerholicCoin address or malformed URI parameters.</source>
-        <translation>URI no se puede analizar! Esto puede ser causado por una dirección de GamerholicCoin no válida o parámetros de URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid OWO address or malformed URI parameters.</source>
+        <translation>URI no se puede analizar! Esto puede ser causado por una dirección de OWO no válida o parámetros de URI malformados.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -732,8 +732,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. GamerholicCoin can no longer continue safely and will quit.</source>
-        <translation>Se ha producido un error fatal. GamerholicCoin ya no puede continuar de forma segura y cerrará.</translation>
+        <source>A fatal error occurred. OWO can no longer continue safely and will quit.</source>
+        <translation>Se ha producido un error fatal. OWO ya no puede continuar de forma segura y cerrará.</translation>
     </message>
 </context>
 <context>
@@ -1066,8 +1066,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GamerholicCoin address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección válida de GamerholicCoin.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid OWO address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección válida de OWO.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1085,8 +1085,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>GamerholicCoin-Qt</source>
-        <translation>GamerholicCoin-Qt</translation>
+        <source>OWO-Qt</source>
+        <translation>OWO-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1158,13 +1158,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GamerholicCoin after logging in to the system.</source>
-        <translation>Iniciar GamerholicCoin automáticamente después de entrar en el sistema.</translation>
+        <source>Automatically start OWO after logging in to the system.</source>
+        <translation>Iniciar OWO automáticamente después de entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GamerholicCoin on system login</source>
-        <translation>&amp;Iniciar GamerholicCoin al inicio del sistema</translation>
+        <source>&amp;Start OWO on system login</source>
+        <translation>&amp;Iniciar OWO al inicio del sistema</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1183,8 +1183,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GamerholicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto de cliente GamerholicCoin en el router. Esto sólo funciona cuando el router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the OWO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto de cliente OWO en el router. Esto sólo funciona cuando el router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1193,8 +1193,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GamerholicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conéctese a la red de GamerholicCoin a través de un SOCKS proxy (e.g. cuando se conecta a través de Tor)</translation>
+        <source>Connect to the OWO network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conéctese a la red de OWO a través de un SOCKS proxy (e.g. cuando se conecta a través de Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1268,8 +1268,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GamerholicCoin.</source>
-        <translation>El idioma del interfaz de usuario se puede configurar aquí. Esta configuración se aplicará después de reiniciar GamerholicCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting OWO.</source>
+        <translation>El idioma del interfaz de usuario se puede configurar aquí. Esta configuración se aplicará después de reiniciar OWO.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1283,8 +1283,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GamerholicCoin addresses in the transaction list or not.</source>
-        <translation>Tanto para mostrar direcciones de GamerholicCoin en la lista de transacciones o no.</translation>
+        <source>Whether to show OWO addresses in the transaction list or not.</source>
+        <translation>Tanto para mostrar direcciones de OWO en la lista de transacciones o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1330,8 +1330,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GamerholicCoin.</source>
-        <translation>Esta configuración se aplicará después de reiniciar GamerholicCoin.</translation>
+        <source>This setting will take effect after restarting OWO.</source>
+        <translation>Esta configuración se aplicará después de reiniciar OWO.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1349,8 +1349,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerholicCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar fuera de fecha. Su monedera se sincroniza automáticamente con la red GamerholicCoin después de que se establece una conexión, pero este proceso no se ha completado todavía.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OWO network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar fuera de fecha. Su monedera se sincroniza automáticamente con la red OWO después de que se establece una conexión, pero este proceso no se ha completado todavía.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1565,8 +1565,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GamerholicCoin-Qt help message to get a list with possible GamerholicCoin command-line options.</source>
-        <translation>Mostrar el mensaje de ayuda de GamerholicCoin-Qt para obtener una lista con las posibles opciones de línea de comandos para GamerholicCoin.</translation>
+        <source>Show the OWO-Qt help message to get a list with possible OWO command-line options.</source>
+        <translation>Mostrar el mensaje de ayuda de OWO-Qt para obtener una lista con las posibles opciones de línea de comandos para OWO.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1585,13 +1585,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>GamerholicCoin - Debug window</source>
-        <translation>GamerholicCoin - Ventana de depuración</translation>
+        <source>OWO - Debug window</source>
+        <translation>OWO - Ventana de depuración</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GamerholicCoin Core</source>
-        <translation>Núcleo GamerholicCoin</translation>
+        <source>OWO Core</source>
+        <translation>Núcleo OWO</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1600,8 +1600,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GamerholicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abre el archivo de registro de GamerholicCoin del directorio de datos actual. Esto puede tardar algunos segundos para archivos grandes.</translation>
+        <source>Open the OWO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abre el archivo de registro de OWO del directorio de datos actual. Esto puede tardar algunos segundos para archivos grandes.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1610,8 +1610,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the GamerholicCoin RPC console.</source>
-        <translation>Bienvenido a la consola RPC de GamerholicCoin</translation>
+        <source>Welcome to the OWO RPC console.</source>
+        <translation>Bienvenido a la consola RPC de OWO</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1769,8 +1769,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduce una dirección GamerholicCoin (p.ej. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a OWO address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduce una dirección OWO (p.ej. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1869,8 +1869,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid GamerholicCoin address</source>
-        <translation>ADVERTENCIA: Dirección GamerholicCoin inválida</translation>
+        <source>WARNING: Invalid OWO address</source>
+        <translation>ADVERTENCIA: Dirección OWO inválida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1943,8 +1943,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduce una dirección GamerholicCoin (p.ej. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a OWO address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduce una dirección OWO (p.ej. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2004,8 +2004,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GamerholicCoin address</source>
-        <translation>Firma el mensaje para demostrar que posees esta dirección GamerholicCoin.</translation>
+        <source>Sign the message to prove you own this OWO address</source>
+        <translation>Firma el mensaje para demostrar que posees esta dirección OWO.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2036,8 +2036,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GamerholicCoin address</source>
-        <translation>Verifique el mensaje para asegurarse de que se firmó con la dirección GamerholicCoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified OWO address</source>
+        <translation>Verifique el mensaje para asegurarse de que se firmó con la dirección OWO especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2047,8 +2047,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduce una dirección GamerholicCoin (p.ej B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a OWO address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduce una dirección OWO (p.ej B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2057,8 +2057,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GamerholicCoin signature</source>
-        <translation>Introduce la firma GamerholicCoin</translation>
+        <source>Enter OWO signature</source>
+        <translation>Introduce la firma OWO</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2628,8 +2628,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>GamerholicCoin version</source>
-        <translation>versión GamerholicCoin</translation>
+        <source>OWO version</source>
+        <translation>versión OWO</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2819,8 +2819,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerholicCoin will not work properly.</source>
-        <translation>Advertencia: Verifique que la fecha y hora del equipo sean correctas! Si su reloj es erróneo GamerholicCoin no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong OWO will not work properly.</source>
+        <translation>Advertencia: Verifique que la fecha y hora del equipo sean correctas! Si su reloj es erróneo OWO no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3016,7 +3016,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com
 </source>
         <translation>%s, debe establecer un rpcpassword en el fichero de configuración:
 %s
@@ -3027,7 +3027,7 @@ rpcpassword=%s
 El nombre de usuario y contraseña no debe ser el mismo.
 Si no existe el archivo, créelo con permisos de sólo lectura para el dueño.
 También se recomienda establecer alertnotify para ser notificado de los problemas;
-por ejemplo: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3159,13 +3159,13 @@ por ejemplo: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; adm
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  GamerholicCoin is probably already running.</source>
-        <translation>No se puede obtener un bloqueo en el directorio de datos %s. GamerholicCoin probablemente ya esté en funcionamiento.</translation>
+        <source>Cannot obtain a lock on data directory %s.  OWO is probably already running.</source>
+        <translation>No se puede obtener un bloqueo en el directorio de datos %s. OWO probablemente ya esté en funcionamiento.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>GamerholicCoin</source>
-        <translation>GamerholicCoin</translation>
+        <source>OWO</source>
+        <translation>OWO</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3199,13 +3199,13 @@ por ejemplo: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; adm
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GamerholicCoin</source>
-        <translation>Error cargando wallet.dat: El monedero requiere una nueva versión de GamerholicCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of OWO</source>
+        <translation>Error cargando wallet.dat: El monedero requiere una nueva versión de OWO</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GamerholicCoin to complete</source>
-        <translation>El monedero necesita ser reescrito: reinicie GamerholicCoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart OWO to complete</source>
+        <translation>El monedero necesita ser reescrito: reinicie OWO para completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3274,8 +3274,8 @@ por ejemplo: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; adm
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. GamerholicCoin is probably already running.</source>
-        <translation>No se puede enlazar a %s en este equipo. GamerholicCoin probablemente ya esté en funcionamiento.</translation>
+        <source>Unable to bind to %s on this computer. OWO is probably already running.</source>
+        <translation>No se puede enlazar a %s en este equipo. OWO probablemente ya esté en funcionamiento.</translation>
     </message>
     <message>
         <location line="-97"/>

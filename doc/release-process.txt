@@ -5,6 +5,7 @@
   src/version.h
   share/setup.nsi
   doc/README*
+  
 
 * tag version in git
 

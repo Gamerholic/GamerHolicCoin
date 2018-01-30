@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About GamerholicCoin</source>
-        <translation>Om GamerholicCoin</translation>
+        <source>About OWO</source>
+        <translation>Om OWO</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;GamerholicCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;GamerholicCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;OWO&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;OWO&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerholicCoin developers</source>
+Copyright © 2014 The OWO developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The GamerholicCoin developers</translation>
+Copyright © 2014 The OWO developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your GamerholicCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine GamerholicCoin adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
+        <source>These are your OWO addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine OWO adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a GamerholicCoin address</source>
-        <translation>Signerer en meddelelse for at bevise du ejer en GamerholicCoin adresse</translation>
+        <source>Sign a message to prove you own a OWO address</source>
+        <translation>Signerer en meddelelse for at bevise du ejer en OWO adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified GamerholicCoin address</source>
-        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret GamerholicCoin adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified OWO address</source>
+        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret OWO adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-58"/>
-        <source>GamerholicCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>GamerholicCoin lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
+        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>OWO lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about GamerholicCoin</source>
-        <translation>Vis oplysninger om GamerholicCoin</translation>
+        <source>Show information about OWO</source>
+        <translation>Vis oplysninger om OWO</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a GamerholicCoin address</source>
-        <translation>Send mønter til en GamerholicCoin adresse</translation>
+        <source>Send coins to a OWO address</source>
+        <translation>Send mønter til en OWO adresse</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for GamerholicCoin</source>
-        <translation>Ændre indstillingsmuligheder for GamerholicCoin</translation>
+        <source>Modify configuration options for OWO</source>
+        <translation>Ændre indstillingsmuligheder for OWO</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-202"/>
-        <source>GamerholicCoin</source>
-        <translation>GamerholicCoin</translation>
+        <source>OWO</source>
+        <translation>OWO</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About GamerholicCoin</source>
-        <translation>&amp;Om GamerholicCoin</translation>
+        <source>&amp;About OWO</source>
+        <translation>&amp;Om OWO</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>GamerholicCoin client</source>
-        <translation>GamerholicCoin Klient</translation>
+        <source>OWO client</source>
+        <translation>OWO Klient</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to GamerholicCoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til GamerholicCoin netværk</numerusform><numerusform>%n aktive forbindelser til GamerholicCoin netværk</numerusform></translation>
+        <source>%n active connection(s) to OWO network</source>
+        <translation><numerusform>%n aktiv forbindelse til OWO netværk</numerusform><numerusform>%n aktive forbindelser til OWO netværk</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-312"/>
-        <source>About GamerholicCoin card</source>
-        <translation>Om GamerholicCoin kort</translation>
+        <source>About OWO card</source>
+        <translation>Om OWO kort</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about GamerholicCoin card</source>
-        <translation>Vis oplysninger om GamerholicCoin kort</translation>
+        <source>Show information about OWO card</source>
+        <translation>Vis oplysninger om OWO kort</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -669,8 +669,8 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid GamerholicCoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig GamerholicCoin adresse eller misdannede URI parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid OWO address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig OWO adresse eller misdannede URI parametre.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,7 +729,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. GamerholicCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. OWO can no longer continue safely and will quit.</source>
         <translation>Der opstod en fejl under forsøg på at gemme dataene i tegnebogen til den nye placering.</translation>
     </message>
 </context>
@@ -1063,8 +1063,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid GamerholicCoin address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig GamerholicCoin adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid OWO address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig OWO adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>GamerholicCoin-Qt</source>
-        <translation>GamerholicCoin-Qt</translation>
+        <source>OWO-Qt</source>
+        <translation>OWO-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start GamerholicCoin after logging in to the system.</source>
-        <translation>Automatisk start GamerholicCoin efter at have logget ind på systemet.</translation>
+        <source>Automatically start OWO after logging in to the system.</source>
+        <translation>Automatisk start OWO efter at have logget ind på systemet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start GamerholicCoin on system login</source>
-        <translation>&amp;Start GamerholicCoin ved systems login</translation>
+        <source>&amp;Start OWO on system login</source>
+        <translation>&amp;Start OWO ved systems login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1180,8 +1180,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the GamerholicCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisk åbne GamerholicCoin klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
+        <source>Automatically open the OWO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisk åbne OWO klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1190,8 +1190,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the GamerholicCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Opret forbindelse til GamerholicCoin netværk via en SOCKS proxy (fx ved tilslutning gennem Tor).</translation>
+        <source>Connect to the OWO network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Opret forbindelse til OWO netværk via en SOCKS proxy (fx ved tilslutning gennem Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1265,8 +1265,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting GamerholicCoin.</source>
-        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af GamerholicCoin tegnebog.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting OWO.</source>
+        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af OWO tegnebog.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1280,8 +1280,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show GamerholicCoin addresses in the transaction list or not.</source>
-        <translation>Få vist GamerholicCoin adresser på listen over transaktioner eller ej.</translation>
+        <source>Whether to show OWO addresses in the transaction list or not.</source>
+        <translation>Få vist OWO adresser på listen over transaktioner eller ej.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1327,8 +1327,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting GamerholicCoin.</source>
-        <translation>Denne indstilling vil træde i kraft efter genstart af GamerholicCoin.</translation>
+        <source>This setting will take effect after restarting OWO.</source>
+        <translation>Denne indstilling vil træde i kraft efter genstart af OWO.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1346,8 +1346,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GamerholicCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med GamerholicCoin netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OWO network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med OWO netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1562,8 +1562,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the GamerholicCoin-Qt help message to get a list with possible GamerholicCoin command-line options.</source>
-        <translation>Vis GamerholicCoin-Qt hjælpe besked for at få en liste med mulige GamerholicCoin kommandolinjeparametre.</translation>
+        <source>Show the OWO-Qt help message to get a list with possible OWO command-line options.</source>
+        <translation>Vis OWO-Qt hjælpe besked for at få en liste med mulige OWO kommandolinjeparametre.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1582,13 +1582,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>GamerholicCoin - Debug window</source>
-        <translation>GamerholicCoin - Debug vindue</translation>
+        <source>OWO - Debug window</source>
+        <translation>OWO - Debug vindue</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>GamerholicCoin Core</source>
-        <translation>GamerholicCoin Kerne</translation>
+        <source>OWO Core</source>
+        <translation>OWO Kerne</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1597,8 +1597,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the GamerholicCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn GamerholicCoin debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
+        <source>Open the OWO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn OWO debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1607,8 +1607,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the GamerholicCoin RPC console.</source>
-        <translation>Velkommen til GamerholicCoin RPC-konsol.</translation>
+        <source>Welcome to the OWO RPC console.</source>
+        <translation>Velkommen til OWO RPC-konsol.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1766,8 +1766,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Indtast en GamerholicCoin-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a OWO address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Indtast en OWO-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1866,8 +1866,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid GamerholicCoin address</source>
-        <translation>ADVARSEL: Ugyldig GamerholicCoin adresse</translation>
+        <source>WARNING: Invalid OWO address</source>
+        <translation>ADVARSEL: Ugyldig OWO adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1940,8 +1940,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Indtast en GamerholicCoin-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a OWO address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Indtast en OWO-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2001,8 +2001,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this GamerholicCoin address</source>
-        <translation>Underskriv brevet for at bevise du ejer denne GamerholicCoin adresse</translation>
+        <source>Sign the message to prove you own this OWO address</source>
+        <translation>Underskriv brevet for at bevise du ejer denne OWO adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2033,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified GamerholicCoin address</source>
-        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne GamerholicCoin adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified OWO address</source>
+        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne OWO adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2044,8 +2044,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a GamerholicCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Indtast en GamerholicCoin-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a OWO address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Indtast en OWO-adresse (f.eks B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2054,8 +2054,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter GamerholicCoin signature</source>
-        <translation>Indtast GamerholicCoin underskrift</translation>
+        <source>Enter OWO signature</source>
+        <translation>Indtast OWO underskrift</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2625,8 +2625,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>GamerholicCoin version</source>
-        <translation>GamerholicCoin version</translation>
+        <source>OWO version</source>
+        <translation>OWO version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2810,8 +2810,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong GamerholicCoin will not work properly.</source>
-        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil GamerholicCoin ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong OWO will not work properly.</source>
+        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil OWO ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3006,7 +3006,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;GamerholicCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com
 </source>
         <translation>% s, skal du indstille et rpcpassword i konfigurationsfilen: 
 % s 
@@ -3017,7 +3017,7 @@ rpcpassword =% s
 Brugernavn og adgangskode må ikke være den samme.  
 Hvis filen ikke findes, skal du oprette den med filtilladelser ejer-læsbar-kun. 
 Det kan også anbefales at sætte alertnotify så du får besked om problemer; 
-for eksempel: alertnotify = echo%% s | mail-s &quot;GamerholicCoin Alert&quot; admin@foo.com 
+for eksempel: alertnotify = echo%% s | mail-s &quot;OWO Alert&quot; admin@foo.com 
 </translation>
     </message>
     <message>
@@ -3142,13 +3142,13 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;GamerholicCoin Alert&quot; a
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  GamerholicCoin is probably already running.</source>
-        <translation>Kan ikke få en lås på data mappe% s. GamerholicCoin kører sikkert allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s.  OWO is probably already running.</source>
+        <translation>Kan ikke få en lås på data mappe% s. OWO kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>GamerholicCoin</source>
-        <translation>GamerholicCoin</translation>
+        <source>OWO</source>
+        <translation>OWO</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3182,13 +3182,13 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;GamerholicCoin Alert&quot; a
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of GamerholicCoin</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af GamerholicCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of OWO</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af OWO</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart GamerholicCoin to complete</source>
-        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart GamerholicCoin for fuldføre</translation>
+        <source>Wallet needed to be rewritten: restart OWO to complete</source>
+        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart OWO for fuldføre</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3257,8 +3257,8 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;GamerholicCoin Alert&quot; a
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. GamerholicCoin is probably already running.</source>
-        <translation>Kunne ikke binde sig til% s på denne computer. GamerholicCoin kører sikkert allerede.</translation>
+        <source>Unable to bind to %s on this computer. OWO is probably already running.</source>
+        <translation>Kunne ikke binde sig til% s på denne computer. OWO kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-97"/>

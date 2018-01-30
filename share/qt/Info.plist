@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>gamerholiccoin.icns</string>
+	<string>OWO.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -17,17 +17,17 @@
 	<key>CFBundleExecutable</key>
 	<string>GamerholicCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.gamerholiccoin.GamerholicCoin-Qt</string>
+	<string>com.OWO.GamerholicCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>com.gamerholiccoin.GamerholicCoinPayment</string>
+            <string>com.OWO.GamerholicCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>gamerholiccoin</string>
+              <string>OWO</string>
             </array>
           </dict>
         </array>

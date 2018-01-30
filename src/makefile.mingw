@@ -83,7 +83,7 @@ OBJS= \
     obj/kernel.o \
     obj/pbkdf2.o
 
-all: gamerholiccoind.exe
+all: OWOd.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -96,12 +96,12 @@ obj/txdb-leveldb.o: leveldb/libleveldb.a
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<
 
-gamerholiccoind.exe: $(OBJS:obj/%=obj/%)
+OWOd.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 
 clean:
-	-del /Q gamerholiccoind
+	-del /Q OWOd
 	-del /Q obj\*
 
 FORCE:
