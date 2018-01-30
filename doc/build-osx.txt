@@ -37,6 +37,8 @@ git clone git@github.com:CryptoGir/OWO.git OWO
 3.  Install dependencies from MacPorts
 
 sudo port install boost db48 openssl miniupnpc
+if you get an error try the solution here
+https://stackoverflow.com/questions/9694395/sudo-port-command-not-found
 
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
