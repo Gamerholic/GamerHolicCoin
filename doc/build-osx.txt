@@ -48,6 +48,10 @@ sudo port install qrencode
 cd OWO/src
 make -f makefile.osx
 
+If you get "net.cpp:60:1: error: unknown type name 'array'" errors
+fix with
+make -f makefile.unix USE_UPNP= (leave empty)
+
 Run:
   ./OWOd --help  # for a list of command-line options.
 Run
