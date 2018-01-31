@@ -56,6 +56,12 @@ if you get "atal error: 'openssl/bn.h' file not found: errors
 fix with
 https://www.anintegratedworld.com/mac-osx-fatal-error-opensslsha-h-file-not-found/
 
+if you get "fatal error: 'db_cxx.h' file not found" 
+fix with 
+brew install berkeley-db
+
+
+
 Run:
   ./OWOd --help  # for a list of command-line options.
 Run
