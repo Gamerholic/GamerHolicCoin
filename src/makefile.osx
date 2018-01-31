@@ -111,8 +111,10 @@ ifneq (${USE_IPV6}, -)
 endif
 
 all: OWOd
-
+OPT ?= -O2 -DNDEBUG -arch x86_64  --with-boost-libdir=/usr/local/Cellar/boost-build/1.66.0/
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
+LDFLAGS: -L/usr/local/opt/qt5/lib
+CPPFLAGS: -I/usr/local/opt/qt5/include
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/helpers)
 OBJS += obj/txdb-leveldb.o
