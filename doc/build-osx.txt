@@ -37,14 +37,40 @@ git clone git@github.com:CryptoGir/OWO.git OWO
 3.  Install dependencies from MacPorts
 
 sudo port install boost db48 openssl miniupnpc
+if you get an error try the solution here
+https://stackoverflow.com/questions/9694395/sudo-port-command-not-found
 
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build OWOd:
+4. brew install --build-from-source --HEAD boost
+
+5. brew install qt5
+
+6.  Now you should be able to build OWOd:
 
 cd OWO/src
 make -f makefile.osx
+
+If you get "net.cpp:60:1: error: unknown type name 'array'" errors
+fix with
+make -f makefile.osx USE_UPNP= (leave empty)
+
+if you get "atal error: 'openssl/bn.h' file not found: errors
+fix with
+https://www.anintegratedworld.com/mac-osx-fatal-error-opensslsha-h-file-not-found/
+
+if you get "fatal error: 'db_cxx.h' file not found" 
+fix with 
+brew install berkeley-db
+
+if you get error: no such file or directory: '/Users/owoman/Documents/ProducTank/OWO_C/OWO/src/leveldb/libmemenv.a'
+fix with 
+cd leveldb
+chmod 755 *
+cd ..
+and compile again
+
 
 Run:
   ./OWOd --help  # for a list of command-line options.
