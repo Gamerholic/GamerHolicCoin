@@ -52,6 +52,10 @@ If you get "net.cpp:60:1: error: unknown type name 'array'" errors
 fix with
 make -f makefile.unix USE_UPNP= (leave empty)
 
+if you get "atal error: 'openssl/bn.h' file not found: errors
+fix with
+https://www.anintegratedworld.com/mac-osx-fatal-error-opensslsha-h-file-not-found/
+
 Run:
   ./OWOd --help  # for a list of command-line options.
 Run
