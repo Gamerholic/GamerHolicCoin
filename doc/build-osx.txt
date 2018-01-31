@@ -43,9 +43,11 @@ https://stackoverflow.com/questions/9694395/sudo-port-command-not-found
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4. brew install qt5
+4. brew install --build-from-source --HEAD boost
 
-5.  Now you should be able to build OWOd:
+5. brew install qt5
+
+6.  Now you should be able to build OWOd:
 
 cd OWO/src
 make -f makefile.osx
