@@ -52,7 +52,7 @@ bool fUseFastIndex;
 // The network-processing threads are all part of a thread group
 // created by AppInit() or the Qt main() function.
 //
-// A clean exit happens when StartShutdown() or the LMNERM
+// A clean exit happens when StartShutdown() or the OWOERM
 // signal handler sets fRequestShutdown, which triggers
 // the DetectShutdownThread(), which interrupts the main thread group.
 // DetectShutdownThread() then exits, which causes AppInit() to
@@ -121,7 +121,7 @@ void Shutdown()
 //
 // Signal handlers are very limited in what they are allowed to do, so:
 //
-void HandleLMNERM(int)
+void HandleOWOERM(int)
 {
     fRequestShutdown = true;
 }
@@ -314,9 +314,9 @@ bool AppInit2(boost::thread_group& threadGroup)
 #ifndef WIN32
     umask(077);
 
-    // Clean shutdown on LMNERM
+    // Clean shutdown on OWOERM
     struct sigaction sa;
-    sa.sa_handler = HandleLMNERM;
+    sa.sa_handler = HandleOWOERM;
     sigemptyset(&sa.sa_mask);
     sa.sa_flags = 0;
     sigaction(SIGTERM, &sa, NULL);
@@ -446,7 +446,7 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     // Sanity check
     if (!InitSanityCheck())
-        return InitError(_("Initialization sanity check failed. Lemanum is shutting down."));
+        return InitError(_("Initialization sanity check failed. OWO is shutting down."));
 
     std::string strDataDir = GetDataDir().string();
 #ifdef ENABLE_WALLET
@@ -462,12 +462,12 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (file) fclose(file);
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Lemanum is probably already running."), strDataDir));
+        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. OWO is probably already running."), strDataDir));
 
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("Lemanum version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
+    LogPrintf("OWO version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
     LogPrintf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
     if (!fLogTimestamps)
         LogPrintf("Startup time: %s\n", DateTimeStrFormat("%x %H:%M:%S", GetTime()));
@@ -476,7 +476,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     std::ostringstream strErrors;
 
     if (fDaemon)
-        fprintf(stdout, "Lemanum server starting\n");
+        fprintf(stdout, "OWO server starting\n");
 
     int64_t nStart;
 
@@ -705,10 +705,10 @@ bool AppInit2(boost::thread_group& threadGroup)
                 InitWarning(msg);
             }
             else if (nLoadWalletRet == DB_TOO_NEW)
-                strErrors << _("Error loading wallet.dat: Wallet requires newer version of Lemanum") << "\n";
+                strErrors << _("Error loading wallet.dat: Wallet requires newer version of OWO") << "\n";
             else if (nLoadWalletRet == DB_NEED_REWRITE)
             {
-                strErrors << _("Wallet needed to be rewritten: restart Lemanum to complete") << "\n";
+                strErrors << _("Wallet needed to be rewritten: restart OWO to complete") << "\n";
                 LogPrintf("%s", strErrors.str());
                 return InitError(strErrors.str());
             }

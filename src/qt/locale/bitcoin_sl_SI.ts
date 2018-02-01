@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Lemanum</source>
-        <translation>O Lemanum</translation>
+        <source>About OWO</source>
+        <translation>O OWO</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Lemanum&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Lemanum&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;OWO&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;OWO&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Lemanum developers</source>
+Copyright © 2014 The OWO developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,8 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Lemanum addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši Lemanum naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your OWO addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši OWO naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -73,8 +73,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Lemanum address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva Lemanum naslova</translation>
+        <source>Sign a message to prove you own a OWO address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva OWO naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -88,8 +88,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Lemanum address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim Lemanum naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified OWO address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim OWO naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -256,8 +256,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Lemanum will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Lemanum se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>OWO se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -350,8 +350,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Lemanum</source>
-        <translation>Pokaži informacije o Lemanum</translation>
+        <source>Show information about OWO</source>
+        <translation>Pokaži informacije o OWO</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,13 +390,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Lemanum address</source>
-        <translation>Pošlji kovance na Lemanum naslov</translation>
+        <source>Send coins to a OWO address</source>
+        <translation>Pošlji kovance na OWO naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Lemanum</source>
-        <translation>Spremeni nastavitve za Lemanum</translation>
+        <source>Modify configuration options for OWO</source>
+        <translation>Spremeni nastavitve za OWO</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -436,8 +436,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>Lemanum</source>
-        <translation>Lemanum</translation>
+        <source>OWO</source>
+        <translation>OWO</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -446,8 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Lemanum</source>
-        <translation>&amp;O Lemanum</translation>
+        <source>&amp;About OWO</source>
+        <translation>&amp;O OWO</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,13 +498,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Lemanum client</source>
-        <translation>Lemanum program</translation>
+        <source>OWO client</source>
+        <translation>OWO program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Lemanum network</source>
-        <translation><numerusform>%n aktivne povezave na Lemanum omrežje</numerusform><numerusform>%n aktivnih povezav na Lemanum omrežje</numerusform><numerusform>%n aktivnih povezav na Lemanum omrežje</numerusform><numerusform>%n aktivnih povezav na Lemanum omrežje</numerusform></translation>
+        <source>%n active connection(s) to OWO network</source>
+        <translation><numerusform>%n aktivne povezave na OWO omrežje</numerusform><numerusform>%n aktivnih povezav na OWO omrežje</numerusform><numerusform>%n aktivnih povezav na OWO omrežje</numerusform><numerusform>%n aktivnih povezav na OWO omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Lemanum address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega Lemanum naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid OWO address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega OWO naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Lemanum can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program Lemanum se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. OWO can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program OWO se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1055,8 +1055,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Lemanum address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven Lemanum naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid OWO address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven OWO naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Lemanum-Qt</source>
-        <translation>Lemanum-Qt</translation>
+        <source>OWO-Qt</source>
+        <translation>OWO-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1147,13 +1147,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Lemanum after logging in to the system.</source>
-        <translation>Avtomatično zaženi Lemanum ob zagonu sistema.</translation>
+        <source>Automatically start OWO after logging in to the system.</source>
+        <translation>Avtomatično zaženi OWO ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Lemanum on system login</source>
-        <translation>&amp;Zaženi Lemanum ob prijavi v sistem</translation>
+        <source>&amp;Start OWO on system login</source>
+        <translation>&amp;Zaženi OWO ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1162,8 +1162,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Lemanum client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za Lemanum program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the OWO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za OWO program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1192,7 +1192,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the Lemanum network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the OWO network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1237,8 +1237,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Lemanum.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu Lemanum aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting OWO.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu OWO aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1304,8 +1304,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Lemanum.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu Lemanum aplikacije</translation>
+        <source>This setting will take effect after restarting OWO.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu OWO aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1323,8 +1323,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lemanum network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z Lemanum omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OWO network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z OWO omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1565,8 +1565,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Lemanum-Qt help message to get a list with possible Lemanum command-line options.</source>
-        <translation>Prikaži Lemanum-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice Lemanum aplikacije</translation>
+        <source>Show the OWO-Qt help message to get a list with possible OWO command-line options.</source>
+        <translation>Prikaži OWO-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice OWO aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1585,13 +1585,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Lemanum - Debug window</source>
-        <translation>Lemanum - okno za odpravljanje napak</translation>
+        <source>OWO - Debug window</source>
+        <translation>OWO - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Lemanum Core</source>
-        <translation>Lemanum jedro</translation>
+        <source>OWO Core</source>
+        <translation>OWO jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1600,8 +1600,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Lemanum debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri Lemanum datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the OWO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri OWO datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1610,8 +1610,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Lemanum RPC console.</source>
-        <translation>Dobrodošli v Lemanum RPC konzoli.</translation>
+        <source>Welcome to the OWO RPC console.</source>
+        <translation>Dobrodošli v OWO RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1791,8 +1791,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a Lemanum address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
-        <translation>Vnesite Lemanum naslov (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
+        <source>Enter a OWO address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Vnesite OWO naslov (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1891,8 +1891,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Lemanum address</source>
-        <translation>OPOZORILO: Neveljaven Lemanum naslov</translation>
+        <source>WARNING: Invalid OWO address</source>
+        <translation>OPOZORILO: Neveljaven OWO naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1965,8 +1965,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Lemanum address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
-        <translation>Vnesite Lemanum naslov (npr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
+        <source>Enter a OWO address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Vnesite OWO naslov (npr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
 </context>
 <context>
@@ -2026,8 +2026,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Lemanum address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva Lemanum naslova</translation>
+        <source>Sign the message to prove you own this OWO address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva OWO naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2058,8 +2058,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Lemanum address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim Lemanum naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified OWO address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim OWO naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2069,8 +2069,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Lemanum address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
-        <translation>Vnesite Lemanum naslov (npr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
+        <source>Enter a OWO address (e.g. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</source>
+        <translation>Vnesite OWO naslov (npr. SjBj1QvJvsAkU5EBKggdZ8gWc4oK2F5AMY)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2079,8 +2079,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Lemanum signature</source>
-        <translation>Vnesite Lemanum podpis</translation>
+        <source>Enter OWO signature</source>
+        <translation>Vnesite OWO podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2658,8 +2658,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+171"/>
-        <source>Lemanum version</source>
-        <translation>Lemanum različica</translation>
+        <source>OWO version</source>
+        <translation>OWO različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2717,7 +2717,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Lemanum Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2823,8 +2823,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Lemanum Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Lemanum will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno Lemanum ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong OWO will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno OWO ne bo deloval.</translation>
     </message>
     <message>
         <location line="+130"/>
@@ -3118,7 +3118,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Lemanum Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. Lemanum is shutting down.</source>
+        <source>Initialization sanity check failed. OWO is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3173,13 +3173,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Lemanum Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Lemanum</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo Lemanum</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of OWO</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo OWO</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Lemanum to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite Lemanum za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart OWO to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite OWO za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3238,8 +3238,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Lemanum Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. Lemanum is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča Lemanum aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. OWO is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča OWO aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3273,7 +3273,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Lemanum Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Lemanum is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. OWO is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

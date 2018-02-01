@@ -2,7 +2,7 @@
 
 LEMANUM
 ========
-Lemanum is decentralized cryptocurrency skunkhash(POW/POS)
+OWO is decentralized cryptocurrency skunkhash(POW/POS)
 Fast and anonymous transaction
 
 
@@ -16,7 +16,7 @@ blockexplorer:
 
 http://lemanum.lchain.cc
 
-https://altmix.org/coins/18-Lemanum
+https://altmix.org/coins/18-OWO
 
 
 

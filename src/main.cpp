@@ -22,7 +22,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Lemanum cannot be compiled without assertions."
+# error "OWO cannot be compiled without assertions."
 #endif
 
 //
@@ -78,7 +78,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Lemanum Signed Message:\n";
+const string strMessageMagic = "OWO Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //

@@ -380,7 +380,7 @@ bool ParseMoney(const char* pszIn, int64_t& nRet)
 
 // safeChars chosen to allow simple messages/URLs/email addresses, but avoid anything
 // even possibly remotely dangerous like & or >
-static string safeChars("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890 .,;_/:?@");
+static string safeChars("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKOWOOPQRSTUVWXYZ01234567890 .,;_/:?@");
 string SanitizeString(const string& str)
 {
     string strResult;
@@ -550,7 +550,7 @@ bool SoftSetBoolArg(const std::string& strArg, bool fValue)
 
 string EncodeBase64(const unsigned char* pch, size_t len)
 {
-    static const char *pbase64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    static const char *pbase64 = "ABCDEFGHIJKOWOOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
     string strRet="";
     strRet.reserve((len+2)/3*4);
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Lemanum
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Lemanum
-    // Mac: ~/Library/Application Support/Lemanum
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\OWO
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\OWO
+    // Mac: ~/Library/Application Support/OWO
     // Unix: ~/.lemanum
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Lemanum";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "OWO";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,7 +966,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Lemanum";
+    return pathRet / "OWO";
 #else
     // Unix
     return pathRet / ".lemanum";
