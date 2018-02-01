@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
-        <translation>O OWO irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas peercoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
+        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OWOs from being stolen by malware infecting your computer.</source>
+        <translation>O OWO irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas OWOs de serem roubadas por malwares que tenham infectado o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -420,12 +420,12 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     <message>
         <location line="-347"/>
         <source>Send coins to a OWO address</source>
-        <translation>Enviar moedas para um endereço peercoin</translation>
+        <translation>Enviar moedas para um endereço OWO</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for OWO</source>
-        <translation>Modificar opções de configuração para peercoin</translation>
+        <translation>Modificar opções de configuração para OWO</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -949,7 +949,7 @@ Endereço: %4</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar peercoins.</translation>
+        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar OWOs.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1078,8 +1078,8 @@ Endereço: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start peercoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar peercoin: manipulador clique-para-pagar</translation>
+        <source>Cannot start OWO: click-to-pay handler</source>
+        <translation>Não foi possível iniciar OWO: manipulador clique-para-pagar</translation>
     </message>
 </context>
 <context>
@@ -1394,7 +1394,7 @@ Endereço: %4</translation>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos peercoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns peercoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
+        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos OWOs de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns OWOs foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
     </message>
 </context>
 <context>
@@ -2206,8 +2206,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Enviar comando para -server ou peercoind</translation>
+        <source>Send command to -server or OWOd</source>
+        <translation>Enviar comando para -server ou OWOd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2226,13 +2226,13 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: peercoin.conf)</source>
-        <translation>Especifique um arquivo de configurações (padrão: peercoin.conf)</translation>
+        <source>Specify configuration file (default: OWO.conf)</source>
+        <translation>Especifique um arquivo de configurações (padrão: OWO.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Especifique um arquivo de pid (padrão: peercoind.pid)</translation>
+        <source>Specify pid file (default: OWOd.pid)</source>
+        <translation>Especifique um arquivo de pid (padrão: OWOd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2309,7 +2309,7 @@ Endereço: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=OWOrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com
         <translation>%s, você deve especificar uma senha rpcpassword no arquivo de configuração:⏎
 %s⏎
 É recomendado que você use a seguinte senha aleatória:⏎
-rpcuser=peercoinrpc⏎
+rpcuser=OWOrpc⏎
 rpcpassword=%s⏎
 (você não precisa lembrar esta senha)⏎
 O nome de usuário e a senha NÃO PODEM ser os mesmos.⏎
@@ -2347,7 +2347,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com�
     <message>
         <location line="+3"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos peercoins de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns peercoins foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
+        <translation>Erro: A transação foi rejeitada. Isso pode acontecer se alguns dos OWOs de sua carteira já haviam sido gastos, por exemplo se você usou uma cópia do arquivo wallet.dat e alguns OWOs foram gastos na cópia mas não foram marcados como gastos aqui.</translation>
     </message>
     <message>
         <location line="+4"/>

@@ -153,10 +153,10 @@ OBJS= \
     obj/txdb.o
 
 
-all: peercoind
+all: OWOd
 
-test check: test_peercoin FORCE
-	./test_peercoin
+test check: test_OWO FORCE
+	./test_OWO
 
 #
 # LevelDB support
@@ -185,7 +185,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-peercoind: $(OBJS:obj/%=obj/%)
+OWOd: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 	@cp $@ ppcoind
 
@@ -198,11 +198,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_peercoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_OWO: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f peercoind test_peercoin
+	-rm -f OWOd test_OWO
 	-rm -f ppcoind
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o

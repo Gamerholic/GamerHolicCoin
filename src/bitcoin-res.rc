@@ -20,10 +20,10 @@ BEGIN
             VALUE "CompanyName",        "OWO"
             VALUE "FileDescription",    "OWOd (OSS daemon/client for OWO)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "peercoind"
+            VALUE "InternalName",       "OWOd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "peercoind.exe"
+            VALUE "OriginalFilename",   "OWOd.exe"
             VALUE "ProductName",        "OWOd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

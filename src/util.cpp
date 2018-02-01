@@ -1005,7 +1005,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "peercoin";
+    const char* pszModule = "OWO";
 #endif
     if (pex)
         return strprintf(
@@ -1057,7 +1057,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\OWO
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\OWO
     // Mac: ~/Library/Application Support/OWO
-    // Unix: ~/.peercoin
+    // Unix: ~/.OWO
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "OWO";
@@ -1075,7 +1075,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "OWO";
 #else
     // Unix
-    return pathRet / ".peercoin";
+    return pathRet / ".OWO";
 #endif
 #endif
 }
@@ -1155,7 +1155,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "peercoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "OWO.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
 
     // Load old config file if present
@@ -1197,7 +1197,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "peercoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "OWOd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

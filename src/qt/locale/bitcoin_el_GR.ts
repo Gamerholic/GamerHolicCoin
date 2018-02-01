@@ -276,8 +276,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
-        <translation>Το OWO θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα peercoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
+        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OWOs from being stolen by malware infecting your computer.</source>
+        <translation>Το OWO θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα OWOs σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -421,7 +421,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a OWO address</source>
-        <translation>Στείλε νομισματα σε μια διεύθυνση peercoin</translation>
+        <translation>Στείλε νομισματα σε μια διεύθυνση OWO</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -758,7 +758,7 @@ Address: %4
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>OWO-Qt</source>
-        <translation>peercoin-qt</translation>
+        <translation>OWO-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1080,7 +1080,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start peercoin: click-to-pay handler</source>
+        <source>Cannot start OWO: click-to-pay handler</source>
         <translation>Δεν είναι δυνατή η εκκίνηση του OWO: click-to-pay handler</translation>
     </message>
 </context>
@@ -2208,8 +2208,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο peercoind</translation>
+        <source>Send command to -server or OWOd</source>
+        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο OWOd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2228,13 +2228,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: peercoin.conf)</source>
-        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: peercoin.conf)</translation>
+        <source>Specify configuration file (default: OWO.conf)</source>
+        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: OWO.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Ορίστε αρχείο pid (προεπιλογή: peercoind.pid)</translation>
+        <source>Specify pid file (default: OWOd.pid)</source>
+        <translation>Ορίστε αρχείο pid (προεπιλογή: OWOd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2311,7 +2311,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=OWOrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2322,7 +2322,7 @@ for example: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=OWOrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

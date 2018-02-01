@@ -2,20 +2,20 @@
 OWO Official Development Repo
 ==================================
 
-[![Build Status](https://travis-ci.org/peercoin/peercoin.svg?branch=master)](https://travis-ci.org/peercoin/peercoin)
+[![Build Status](https://travis-ci.org/OWO/OWO.svg?branch=master)](https://travis-ci.org/OWO/OWO)
 
 ### What is OWO?
-[OWO](https://peercoin.net) (abbreviated OWO), also known as OWOoin and Peer-to-Peer Coin is the first [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) design introducing [proof-of-stake consensus](https://peercoin.net/assets/paper/peercoin-paper.pdf) as a security model, with a combined [proof-of-stake](https://peercoin.net/assets/paper/peercoin-paper.pdf)/[proof-of-work](https://en.wikipedia.org/wiki/Proof-of-work_system) minting system. OWO is based on [Bitcoin](https://bitcoin.org), while introducing many important innovations to cryptocurrency field including new security model, energy efficiency, better minting model and more adaptive response to rapid change in network computation power.
+[OWO](https://OWO.net) (abbreviated OWO), also known as OWOoin and Peer-to-Peer Coin is the first [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) design introducing [proof-of-stake consensus](https://OWO.net/assets/paper/OWO-paper.pdf) as a security model, with a combined [proof-of-stake](https://OWO.net/assets/paper/OWO-paper.pdf)/[proof-of-work](https://en.wikipedia.org/wiki/Proof-of-work_system) minting system. OWO is based on [Bitcoin](https://bitcoin.org), while introducing many important innovations to cryptocurrency field including new security model, energy efficiency, better minting model and more adaptive response to rapid change in network computation power.
 
 ### OWO Resources
 * Client and Source:
-[Client Binaries](https://peercoin.net/download),
-[Source Code](https://github.com/peercoin/peercoin)
-* Documentation: [OWO Whitepaper](https://peercoin.net/whitepaper),
-[OWO Wiki](https://github.com/peercoin/peercoin/wiki)
+[Client Binaries](https://OWO.net/download),
+[Source Code](https://github.com/OWO/OWO)
+* Documentation: [OWO Whitepaper](https://OWO.net/whitepaper),
+[OWO Wiki](https://github.com/OWO/OWO/wiki)
 * Help: 
-[Forum](https://talk.peercoin.net),
-[Intro & Important Links](https://talk.peercoin.net/t/what-is-peercoin-intro-important-links/2889)
+[Forum](https://talk.OWO.net),
+[Intro & Important Links](https://talk.OWO.net/t/what-is-OWO-intro-important-links/2889)
 
 Testing
 -------
@@ -46,10 +46,10 @@ than the developer who wrote the code.
 
 * Developers work in their own forks, then submit pull requests when they think their feature or bug fix is ready.
 * If it is a simple/trivial/non-controversial change, then one of the development team members simply pulls it.
-* If it is a more complicated or potentially controversial change, then the change may be discussed in the pull request, or the requester may be asked to start a discussion in the [OWO Forum](https://talk.peercoin.net) for a broader community discussion. 
+* If it is a more complicated or potentially controversial change, then the change may be discussed in the pull request, or the requester may be asked to start a discussion in the [OWO Forum](https://talk.OWO.net) for a broader community discussion. 
 * The patch will be accepted if there is broad consensus that it is a good thing. Developers should expect to rework and resubmit patches if they don't match the project's coding conventions (see coding.txt) or are controversial.
 * From time to time a pull request will become outdated. If this occurs, and the pull is no longer automatically mergeable; a comment on the pull will be used to issue a warning of closure.  Pull requests closed in this manner will have their corresponding issue labeled 'stagnant'.
-* For development ideas and help see [here](https://talk.peercoin.net/c/protocol).
+* For development ideas and help see [here](https://talk.OWO.net/c/protocol).
 
 ## Branches:
 

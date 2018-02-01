@@ -123,7 +123,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your OWO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw OWOadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw peercoins verzendt.</translation>
+        <translation>Dit zijn uw OWOadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw OWOs verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
-        <translation>OWO zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw peercoins stelen.</translation>
+        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OWOs from being stolen by malware infecting your computer.</source>
+        <translation>OWO zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw OWOs stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1079,8 +1079,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start peercoin: click-to-pay handler</source>
-        <translation>Kan peercoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start OWO: click-to-pay handler</source>
+        <translation>Kan OWO niet starten: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -2207,8 +2207,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Stuur commando naar -server of peercoind</translation>
+        <source>Send command to -server or OWOd</source>
+        <translation>Stuur commando naar -server of OWOd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2227,14 +2227,14 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: peercoin.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: peercoin.conf)
+        <source>Specify configuration file (default: OWO.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: OWO.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: peercoind.pid)
+        <source>Specify pid file (default: OWOd.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: OWOd.pid)
 </translation>
     </message>
     <message>
@@ -2312,7 +2312,7 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=OWOrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2322,7 +2322,7 @@ for example: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=peercoinrpc
+rpcuser=OWOrpc
 rpcpassword=%s
 (u hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.

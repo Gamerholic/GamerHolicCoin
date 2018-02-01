@@ -270,7 +270,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
+        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OWOs from being stolen by malware infecting your computer.</source>
         <translation>OWO aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
@@ -1074,7 +1074,7 @@ Adrese: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start peercoin: click-to-pay handler</source>
+        <source>Cannot start OWO: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2202,8 +2202,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Nosūtīt komantu uz -server vai peercoind</translation>
+        <source>Send command to -server or OWOd</source>
+        <translation>Nosūtīt komantu uz -server vai OWOd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2222,13 +2222,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: peercoin.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: peercoin.conf)</translation>
+        <source>Specify configuration file (default: OWO.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: OWO.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: peercoind.pid)</translation>
+        <source>Specify pid file (default: OWOd.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: OWOd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2305,7 +2305,7 @@ Adrese: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=OWOrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

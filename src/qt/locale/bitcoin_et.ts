@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
-        <translation>OWO sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista peercoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OWOs from being stolen by malware infecting your computer.</source>
+        <translation>OWO sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista OWOide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1078,7 +1078,7 @@ Aadress: %4⏎</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start peercoin: click-to-pay handler</source>
+        <source>Cannot start OWO: click-to-pay handler</source>
         <translation>OWO ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
@@ -2206,8 +2206,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or peercoind</source>
-        <translation>Saada käsklus -serverile või peercoindile</translation>
+        <source>Send command to -server or OWOd</source>
+        <translation>Saada käsklus -serverile või OWOdile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2226,13 +2226,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: peercoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: peercoin.conf)</translation>
+        <source>Specify configuration file (default: OWO.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: OWO.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: peercoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: peercoin.pid)</translation>
+        <source>Specify pid file (default: OWOd.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: OWO.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2309,7 +2309,7 @@ Aadress: %4⏎</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=peercoinrpc
+rpcuser=OWOrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
 Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=peercoinrpc
+rpcuser=OWOrpc
 rpcpassword=%s
 (seda parooli ei pea meeles pidama)
 Kasutajanimi ning parool EI TOHI kattuda.

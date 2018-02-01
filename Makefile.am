@@ -4,19 +4,19 @@ SUBDIRS = src
 
 GZIP_ENV="-9n"
 
-BITCOIND_BIN=$(top_builddir)/src/peercoind$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/peercoin-qt$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/OWOd$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/OWO-qt$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win32-setup$(EXEEXT)
 
 OSX_APP=OWO-Qt.app
 OSX_DMG=OWO-Qt.dmg
 OSX_DEPLOY_SCRIPT=$(top_srcdir)/contrib/macdeploy/macdeployqtplus
 OSX_FANCY_PLIST=$(top_srcdir)/contrib/macdeploy/fancy.plist
-OSX_INSTALLER_ICONS=$(top_srcdir)/src/qt/res/icons/peercoin.icns
+OSX_INSTALLER_ICONS=$(top_srcdir)/src/qt/res/icons/OWO.icns
 OSX_PLIST=$(top_srcdir)/share/qt/Info.plist #not installed
 OSX_QT_TRANSLATIONS = da,de,es,hu,ru,uk,zh_CN,zh_TW
 
-WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/peercoin.ico \
+WINDOWS_PACKAGING = $(top_srcdir)/share/pixmaps/OWO.ico \
   $(top_srcdir)/share/pixmaps/nsis-header.bmp \
   $(top_srcdir)/share/pixmaps/nsis-wizard.bmp \
   $(top_srcdir)/doc/README_windows.txt
@@ -53,10 +53,10 @@ $(BITCOIN_WIN_INSTALLER): all-recursive
 	  echo error: could not build $@
 
 $(BITCOIND_BIN):
-	make -C $(top_srcdir)/src peercoind$(EXEEXT)
+	make -C $(top_srcdir)/src OWOd$(EXEEXT)
 
 $(BITCOIN_QT_BIN):
-	make -C $(top_srcdir)/src/qt peercoin-qt$(EXEEXT)
+	make -C $(top_srcdir)/src/qt OWO-qt$(EXEEXT)
 
 
 $(OSX_APP)/Contents/PkgInfo:
@@ -71,7 +71,7 @@ $(OSX_APP)/Contents/Info.plist: $(OSX_PLIST)
 	$(MKDIR_P) $(@D)
 	$(INSTALL_DATA) $< $@
 
-$(OSX_APP)/Contents/Resources/peercoin.icns: $(OSX_INSTALLER_ICONS)
+$(OSX_APP)/Contents/Resources/OWO.icns: $(OSX_INSTALLER_ICONS)
 	$(MKDIR_P) $(@D)
 	$(INSTALL_DATA) $< $@
 
@@ -80,7 +80,7 @@ $(OSX_APP)/Contents/MacOS/OWO-Qt: $(BITCOIN_QT_BIN)
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM)  $< $@
 
 OSX_APP_BUILT=$(OSX_APP)/Contents/PkgInfo $(OSX_APP)/Contents/Resources/empty.lproj \
-  $(OSX_APP)/Contents/Resources/peercoin.icns $(OSX_APP)/Contents/Info.plist \
+  $(OSX_APP)/Contents/Resources/OWO.icns $(OSX_APP)/Contents/Info.plist \
   $(OSX_APP)/Contents/MacOS/OWO-Qt
 
 if BUILD_DARWIN
