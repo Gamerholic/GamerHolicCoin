@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Peercoin</source>
-        <translation>Peercoinist</translation>
+        <source>About OWO</source>
+        <translation>OWOist</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Peercoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Peercoini&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;OWO&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;OWOi&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The Peercoin developers</source>
+        <source>The OWO developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,8 +67,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Peercoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad Peercoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your OWO addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad OWOi aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Peercoin address</source>
+        <source>Sign a message to prove you own a OWO address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Peercoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Peercoini aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified OWO address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud OWOi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Peercoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Peercoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your OWO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu OWOi aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>Peercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
-        <translation>Peercoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista peercoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>OWO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your peercoins from being stolen by malware infecting your computer.</source>
+        <translation>OWO sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista peercoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Peercoin</source>
-        <translation>Kuva info Peercoini kohta</translation>
+        <source>Show information about OWO</source>
+        <translation>Kuva info OWOi kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Peercoin address</source>
-        <translation>Saada münte Peercoini aadressile</translation>
+        <source>Send coins to a OWO address</source>
+        <translation>Saada münte OWOi aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Peercoin</source>
-        <translation>Muuda Peercoini seadeid</translation>
+        <source>Modify configuration options for OWO</source>
+        <translation>Muuda OWOi seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Peercoin</source>
-        <translation>Peercoin</translation>
+        <source>OWO</source>
+        <translation>OWO</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Peercoin</source>
-        <translation>%Peercoinist</translation>
+        <source>&amp;About OWO</source>
+        <translation>%OWOist</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Peercoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Peercoini aadressiga</translation>
+        <source>Sign messages with your OWO addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma OWOi aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Peercoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Peercoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified OWO addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud OWOi aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>Peercoin client</source>
-        <translation>Peercoini klient</translation>
+        <source>OWO client</source>
+        <translation>OWOi klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Peercoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Peercoini võrku</numerusform><numerusform>%n aktiivset ühendust Peercoini võrku</numerusform></translation>
+        <source>%n active connection(s) to OWO network</source>
+        <translation><numerusform>%n aktiivne ühendus OWOi võrku</numerusform><numerusform>%n aktiivset ühendust OWOi võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Peercoin address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Peercoini aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid OWO address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu OWOi aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Peercoin can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. Peercoin suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. OWO can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. OWO suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Peercoin address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole Peercoinis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid OWO address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole OWOis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Peercoin-Qt</source>
-        <translation>Peercoini-Qt</translation>
+        <source>OWO-Qt</source>
+        <translation>OWOi-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,8 +818,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Peercoin after logging in to the system.</source>
-        <translation>Käivita Peercoin süsteemi logimisel.</translation>
+        <source>Automatically start OWO after logging in to the system.</source>
+        <translation>Käivita OWO süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -828,8 +828,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Peercoin on system login</source>
-        <translation>&amp;Start Peercoin sisselogimisel</translation>
+        <source>&amp;Start OWO on system login</source>
+        <translation>&amp;Start OWO sisselogimisel</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Peercoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Peercoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the OWO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>OWOi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -863,8 +863,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Peercoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta Peercoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the OWO network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta OWOi võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -938,8 +938,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Peercoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Peercoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting OWO.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub OWOi käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -953,8 +953,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Peercoin addresses in the transaction list or not.</source>
-        <translation>Kuvada Peercoini aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show OWO addresses in the transaction list or not.</source>
+        <translation>Kuvada OWOi aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1005,8 +1005,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Peercoin.</source>
-        <translation>Tehtud valik rakendub Peercoini käivitamisel.</translation>
+        <source>This setting will take effect after restarting OWO.</source>
+        <translation>Tehtud valik rakendub OWOi käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1024,7 +1024,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Peercoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OWO network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1079,7 +1079,7 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start peercoin: click-to-pay handler</source>
-        <translation>Peercoin ei käivitu: vajuta-maksa toiming</translation>
+        <translation>OWO ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1228,8 +1228,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Peercoin-Qt help message to get a list with possible Peercoin command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks Peercoini-Qt abiteksti</translation>
+        <source>Show the OWO-Qt help message to get a list with possible OWO command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks OWOi-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1248,13 +1248,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Peercoin - Debug window</source>
-        <translation>Peercoin - debugimise aken</translation>
+        <source>OWO - Debug window</source>
+        <translation>OWO - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Peercoin Core</source>
-        <translation>Peercoini tuumik</translation>
+        <source>OWO Core</source>
+        <translation>OWOi tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Peercoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava Peercoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the OWO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava OWOi logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1273,8 +1273,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Peercoin RPC console.</source>
-        <translation>Teretulemast Peercoini RPC konsooli.</translation>
+        <source>Welcome to the OWO RPC console.</source>
+        <translation>Teretulemast OWOi RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1457,8 +1457,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Sisesta Peercoini aadress</translation>
+        <source>Enter a OWO address</source>
+        <translation>Sisesta OWOi aadress</translation>
     </message>
 </context>
 <context>
@@ -1522,8 +1522,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Peercoin address</source>
-        <translation>Allkirjasta sõnum Peercoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this OWO address</source>
+        <translation>Allkirjasta sõnum OWOi aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1558,8 +1558,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Peercoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Peercoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified OWO address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud OWOi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Peercoin address</source>
-        <translation>Sisesta Peercoini aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a OWO address</source>
+        <translation>Sisesta OWOi aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1584,8 +1584,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Peercoin signature</source>
-        <translation>Sisesta Peercoini allkiri</translation>
+        <source>Enter OWO signature</source>
+        <translation>Sisesta OWOi allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1658,7 +1658,7 @@ Aadress: %4⏎</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Peercoin developers</source>
+        <source>The OWO developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Peercoin version</source>
-        <translation>Peercoini versioon</translation>
+        <source>OWO version</source>
+        <translation>OWOi versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2315,7 +2315,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Peercoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;OWO Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
@@ -2326,7 +2326,7 @@ rpcpassword=%s
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;Peercoin Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;OWO Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2341,8 +2341,8 @@ nt: alertnotify=echo %%s | email -s &quot;Peercoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Peercoin is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Peercoin juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. OWO is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on OWO juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2386,8 +2386,8 @@ nt: alertnotify=echo %%s | email -s &quot;Peercoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Peercoin will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Peercoin ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong OWO will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis OWO ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2637,7 +2637,7 @@ nt: alertnotify=echo %%s | email -s &quot;Peercoin Alert&quot; admin@foo.com
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata Peercoini Wikist või SSL sätete juhendist)</translation>
+        <translation>SSL valikud: (vaata OWOi Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2826,13 +2826,13 @@ nt: alertnotify=echo %%s | email -s &quot;Peercoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Peercoin</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Peercoini uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of OWO</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab OWOi uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Peercoin to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Peercoin</translation>
+        <source>Wallet needed to be rewritten: restart OWO to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita OWO</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2891,8 +2891,8 @@ nt: alertnotify=echo %%s | email -s &quot;Peercoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Peercoin is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. Peercoin juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. OWO is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. OWO juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>

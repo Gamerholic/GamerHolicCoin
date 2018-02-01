@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2018 The Peercoin developers
+// Copyright (c) 2011-2018 The OWO developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1054,13 +1054,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Peercoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Peercoin
-    // Mac: ~/Library/Application Support/Peercoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\OWO
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\OWO
+    // Mac: ~/Library/Application Support/OWO
     // Unix: ~/.peercoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Peercoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "OWO";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1072,7 +1072,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Peercoin";
+    return pathRet / "OWO";
 #else
     // Unix
     return pathRet / ".peercoin";
@@ -1083,13 +1083,13 @@ boost::filesystem::path GetDefaultDataDir()
 boost::filesystem::path GetOldDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\PPCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\PPCoin
-    // Mac: ~/Library/Application Support/PPCoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\OWOoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\OWOoin
+    // Mac: ~/Library/Application Support/OWOoin
     // Unix: ~/.ppcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "PPCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "OWOoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1101,7 +1101,7 @@ boost::filesystem::path GetOldDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "PPCoin";
+    return pathRet / "OWOoin";
 #else
     // Unix
     return pathRet / ".ppcoin";
@@ -1430,7 +1430,7 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Peercoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong OWO will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);
@@ -1489,7 +1489,7 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
     if (!comments.empty())
         ss << "(" << boost::algorithm::join(comments, "; ") << ")";
     ss << "/";
-    ss << "Peercoin:" << FormatVersion(PEERCOIN_VERSION);
+    ss << "OWO:" << FormatVersion(PEERCOIN_VERSION);
     ss << "(" << CLIENT_BUILD << ")/";
     return ss.str();
 }

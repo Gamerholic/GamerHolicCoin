@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = peercoin-qt
-macx:TARGET = "Peercoin-Qt"
+macx:TARGET = "OWO-Qt"
 VERSION = 0.6.2
 INCLUDEPATH += src src/json src/qt
 QT += network core
