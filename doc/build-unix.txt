@@ -1,4 +1,5 @@
 Copyright (c) 2009-2012 Bitcoin Developers
+Copyright (c) 2017 Lemanum Project
 Distributed under the MIT/X11 software license, see the accompanying
 file license.txt or http://www.opensource.org/licenses/mit-license.php.
 This product includes software developed by the OpenSSL Project for use in
@@ -13,11 +14,13 @@ UNIX BUILD NOTES
 To Build
 --------
 
-cd src/
-make -f makefile.unix            # Headless OWO
+cd src/leveldb
+chmod +x build_detect_platform
+make clean && make libleveldb.a libmemenv.a
+make -f makefile.unix            # Headless lemanum
 
-See readme-qt.rst for instructions on building OWO QT,
-the graphical OWO.
+See readme-qt.rst for instructions on building Lemanum QT,
+the graphical lemanum.
 
 Dependencies
 ------------
@@ -53,19 +56,15 @@ Licenses of statically linked libraries:
  miniupnpc     New (3-clause) BSD license
 
 Versions used in this release:
- GCC           4.3.3
- OpenSSL       0.9.8g
- Berkeley DB   4.8.30.NC
- Boost         1.37
- miniupnpc     1.6
+ GCC           4.9.0
+ OpenSSL       1.0.1g
+ Berkeley DB   5.3.28.NC
+ Boost         1.55.0
+ miniupnpc     1.9.20140401
 
 Dependency Build Instructions: Ubuntu & Debian
 ----------------------------------------------
-sudo apt-get install build-essential
-sudo apt-get install libssl-dev
-sudo apt-get install libdb++-dev
-sudo apt-get install libboost-all-dev
-sudo apt-get install libqrencode-dev
+sudo apt-get install build-essential libssl-dev libdb++-dev libdb-dev libboost-all-dev libqrencode-dev libminiupnpc-dev
 
 If using Boost 1.37, append -mt to the boost libraries in the makefile.
 
@@ -73,21 +72,17 @@ If using Boost 1.37, append -mt to the boost libraries in the makefile.
 Dependency Build Instructions: Gentoo
 -------------------------------------
 
-Note: If you just want to install OWOd on Gentoo, you can add the OWO
-      overlay and use your package manager:
-          layman -a OWO && emerge OWOd
-
-emerge -av1 --noreplace boost glib openssl sys-libs/db
+emerge -av1 --noreplace boost openssl sys-libs/db
 
 Take the following steps to build (no UPnP support):
- cd ${BLACKCOIN_DIR}/src
- make -f makefile.unix USE_UPNP= BDB_INCLUDE_PATH='/usr/include/db4.8'
- strip OWOd
+ cd ${LMN_DIR}/src
+ make -f makefile.unix USE_UPNP=
+ strip lemanumd
 
 
 Notes
 -----
-The release is built with GCC and then "strip OWOd" to strip the debug
+The release is built with GCC and then "strip lemanumd" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
 
@@ -102,7 +97,7 @@ make install
 
 Berkeley DB
 -----------
-You need Berkeley DB 4.8.  If you have to build Berkeley DB yourself:
+You need Berkeley DB. If you have to build Berkeley DB yourself:
 ../dist/configure --enable-cxx
 make
 
@@ -117,7 +112,7 @@ sudo su
 
 Security
 --------
-To help make your OWO installation more secure by making certain attacks impossible to
+To help make your lemanum installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, you can take the following measures:
 
 * Position Independent Executable
@@ -134,7 +129,7 @@ exploit even if a vulnerability is found, you can take the following measures:
     make -f makefile.unix ... -e PIE=1
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
-    scanelf -e ./OWO
+    scanelf -e ./lemanum
 
     The output should contain:
      TYPE
@@ -142,13 +137,13 @@ exploit even if a vulnerability is found, you can take the following measures:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, OWO should be built with a non-executable stack
+    vulnerable buffers are found. By default, lemanum should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    scanelf -e ./OWO
+    scanelf -e ./lemanum
 
     the output should contain:
     STK/REL/PTL

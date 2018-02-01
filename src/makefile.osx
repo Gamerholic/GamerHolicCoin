@@ -3,31 +3,49 @@
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-# Mac OS X makefile for OWO
+# Mac OS X makefile for lemanum
 # Originally by Laszlo Hanyecz (solar@heliacal.net)
 
+USE_UPNP:=1
+USE_WALLET:=1
+
+HAVE_BREW=$(shell brew --prefix >/dev/null 2>&1; echo $$? )
+# Check if BerkeleyDB is installed via Homebrew
+HAVE_BREW_BDB4=$(shell brew list | grep berkeley-db@4 >/dev/null 2>&1; echo $$? )
+# Check if LevelDB is installed via Homebrew
+HAVE_BREW_LEVELDB=$(shell brew list | grep leveldb >/dev/null 2>&1; echo $$? )
+
+ifeq (${HAVE_BREW}, 0)
+	DEPSDIR=$(shell brew --prefix)
+else
+	DEPSDIR=/opt/local
+endif
+
 CXX=llvm-g++
-DEPSDIR=/opt/local
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
  -I"$(CURDIR)"/obj \
  -I"$(DEPSDIR)/include" \
- -I"$(DEPSDIR)/include/db48"
+ -I"$(DEPSDIR)/opt/openssl/include"
 
 LIBPATHS= \
  -L"$(DEPSDIR)/lib" \
- -L"$(DEPSDIR)/lib/db48"
-
-USE_UPNP:=1
-USE_IPV6:=1
+ -L"$(DEPSDIR)/opt/openssl/lib"
 
 LIBS= -dead_strip
 
+ifeq ($(HAVE_BREW_BDB4), 0)
+	LIBS += $(DEPSDIR)/lib/libdb_cxx-4.8.a
+else
+	LIBS += $(DEPSDIR)/lib/db48/libdb_cxx-4.8.a
+	INCLUDEPATHS += -I"$(DEPSDIR)/include/db48"
+	LIBPATHS += -I"$(DEPSDIR)/lib/db48"
+endif
+
 ifdef STATIC
-# Build STATIC if you are redistributing the OWOd binary
+# Build STATIC if you are redistributing the lemanumd binary
 LIBS += \
- $(DEPSDIR)/lib/db48/libdb_cxx-4.8.a \
  $(DEPSDIR)/lib/libboost_system-mt.a \
  $(DEPSDIR)/lib/libboost_filesystem-mt.a \
  $(DEPSDIR)/lib/libboost_program_options-mt.a \
@@ -53,7 +71,7 @@ ifdef RELEASE
 # Compile for maximum compatibility and smallest size.
 # This requires that dependencies are compiled
 # the same way.
-CFLAGS = -mmacosx-version-min=10.5 -arch x86_64 -O3 -msse2
+CFLAGS = -mmacosx-version-min=10.5 -arch x86_64 -O2 -msse2
 else
 CFLAGS = -g -msse2
 endif
@@ -70,29 +88,50 @@ OBJS= \
     obj/addrman.o \
     obj/crypter.o \
     obj/key.o \
-    obj/db.o \
     obj/init.o \
-    obj/irc.o \
+    obj/bitcoind.o \
     obj/keystore.o \
+    obj/core.o \
     obj/main.o \
-    obj/miner.o \
     obj/net.o \
     obj/protocol.o \
-    obj/bitcoinrpc.o \
-    obj/rpcdump.o \
+    obj/rpcclient.o \
+    obj/rpcprotocol.o \
+    obj/rpcserver.o \
+    obj/rpcmisc.o \
     obj/rpcnet.o \
-    obj/rpcmining.o \
-    obj/rpcwallet.o \
     obj/rpcblockchain.o \
     obj/rpcrawtransaction.o \
+    obj/timedata.o \
     obj/script.o \
     obj/sync.o \
+    obj/txmempool.o \
     obj/util.o \
-    obj/wallet.o \
-    obj/walletdb.o \
+    obj/hash.o \
     obj/noui.o \
     obj/pbkdf2.o \
-    obj/kernel.o
+    obj/kernel.o \
+    obj/scrypt.o \
+    obj/scrypt-x86.o \
+    obj/scrypt-x86_64.o \
+    obj/chainparams.o \
+    obj/skunkhash/cubehash.o \
+    obj/skunkhash/aes_helper.o \
+    obj/skunkhash/gost.o \
+    obj/skunkhash/skein.o\
+    obj/skunkhash/fugue.o
+
+ifeq (${USE_WALLET}, 1)
+    DEFS += -DENABLE_WALLET
+    OBJS += \
+        obj/db.o \
+        obj/miner.o \
+        obj/rpcdump.o \
+        obj/rpcmining.o \
+        obj/rpcwallet.o \
+        obj/wallet.o \
+        obj/walletdb.o
+endif
 
 ifndef USE_UPNP
 	override USE_UPNP = -
@@ -106,21 +145,25 @@ else
 endif
 endif
 
-ifneq (${USE_IPV6}, -)
-	DEFS += -DUSE_IPV6=$(USE_IPV6)
-endif
+all: lemanumd
 
-all: OWOd
-OPT ?= -O2 -DNDEBUG -arch x86_64  --with-boost-libdir=/usr/local/Cellar/boost-build/1.66.0/
-LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
-LDFLAGS: -L/usr/local/opt/qt5/lib
-CPPFLAGS: -I/usr/local/opt/qt5/include
-DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
+ifeq ($(HAVE_BREW_LEVELDB), 0)
+	LIBS += -lleveldb
+else
+	LIBS += $(CURDIR)/leveldb/libleveldb.a
+	DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
+endif
+LIBS += $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/helpers)
 OBJS += obj/txdb-leveldb.o
 leveldb/libleveldb.a:
-	@echo "Building LevelDB ..."; cd leveldb; make; cd ..
-obj/txdb-leveldb.o: leveldb/libleveldb.a
+	@echo "Building LevelDB ..."
+	make -C leveldb libleveldb.a
+leveldb/libmemenv.a:
+	@echo "Building Memenv ..."
+	make -C leveldb libmemenv.a
+
+obj/txdb-leveldb.o: leveldb/libmemenv.a
 
 # auto-generated dependencies:
 -include obj/*.P
@@ -137,11 +180,17 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-OWOd: $(OBJS:obj/%=obj/%)
+obj/scrypt-x86.o: scrypt-x86.S
+	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
+
+obj/scrypt-x86_64.o: scrypt-x86_64.S
+	$(CXX) -c $(xCXXFLAGS) -MMD -o $@ $<
+
+lemanumd: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
-	-rm -f OWOd
+	-rm -f lemanumd
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj/build.h
