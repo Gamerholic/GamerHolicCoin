@@ -1,8 +1,0 @@
-obj/version.o: version.cpp \
-  /Users/akshay/Documents/GamerHolicCoin/src/version.h \
-  /Users/akshay/Documents/GamerHolicCoin/src/clientversion.h \
-  /Users/akshay/Documents/GamerHolicCoin/src/obj/build.h
-version.cpp :
-  /Users/akshay/Documents/GamerHolicCoin/src/version.h :
-  /Users/akshay/Documents/GamerHolicCoin/src/clientversion.h :
-  /Users/akshay/Documents/GamerHolicCoin/src/obj/build.h :

@@ -1,6 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin Developers
-// Copyright (c) 2011-2018 The OWO developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -18,11 +17,9 @@
 
 #include <string>
 #include <vector>
-
 #include "bignum.h"
 #include "key.h"
 #include "script.h"
-#include "allocators.h"
 
 static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
 
@@ -51,7 +48,7 @@ inline std::string EncodeBase58(const unsigned char* pbegin, const unsigned char
     CBigNum rem;
     while (bn > bn0)
     {
-        if (!BN_div(dv.get(), rem.get(), bn.cget(), bn58.cget(), pctx))
+        if (!BN_div(&dv, &rem, &bn, &bn58, pctx))
             throw bignum_error("EncodeBase58 : BN_div failed");
         bn = dv;
         unsigned int c = rem.getulong();
@@ -98,7 +95,7 @@ inline bool DecodeBase58(const char* psz, std::vector<unsigned char>& vchRet)
             break;
         }
         bnChar.setulong(p1 - pszBase58);
-        if (!BN_mul(bn.get(), bn.cget(), bn58.cget(), pctx))
+        if (!BN_mul(&bn, &bn, &bn58, pctx))
             throw bignum_error("DecodeBase58 : BN_mul failed");
         bn += bnChar;
     }
@@ -181,13 +178,19 @@ protected:
     unsigned char nVersion;
 
     // the actually encoded data
-    typedef std::vector<unsigned char, zero_after_free_allocator<unsigned char> > vector_uchar;
-    vector_uchar vchData;
+    std::vector<unsigned char> vchData;
 
     CBase58Data()
     {
         nVersion = 0;
         vchData.clear();
+    }
+
+    ~CBase58Data()
+    {
+        // zero the memory, as it may contain sensitive data
+        if (!vchData.empty())
+            memset(&vchData[0], 0, vchData.size());
     }
 
     void SetData(int nVersionIn, const void* pdata, size_t nSize)
@@ -218,7 +221,7 @@ public:
         vchData.resize(vchTemp.size() - 1);
         if (!vchData.empty())
             memcpy(&vchData[0], &vchTemp[1], vchData.size());
-        OPENSSL_cleanse(&vchTemp[0], vchData.size());
+        memset(&vchTemp[0], 0, vchTemp.size());
         return true;
     }
 
@@ -250,10 +253,10 @@ public:
     bool operator> (const CBase58Data& b58) const { return CompareTo(b58) >  0; }
 };
 
-/** base58-encoded bitcoin addresses.
- * ppcoin public-key-hash-addresses have version 55 (or 111 testnet).
+/** base58-encoded addresses.
+ * Public-key-hash-addresses have version 25 (or 111 testnet).
  * The data vector contains RIPEMD160(SHA256(pubkey)), where pubkey is the serialized public key.
- * Script-hash-addresses have version 117 (or 196 testnet).
+ * Script-hash-addresses have version 85 (or 196 testnet).
  * The data vector contains RIPEMD160(SHA256(cscript)), where cscript is the serialized redemption script.
  */
 class CBitcoinAddress;
@@ -273,10 +276,10 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 55,  // ppcoin: addresses begin with 'P'
-        SCRIPT_ADDRESS = 117, // ppcoin: addresses begin with 'p'
-        PUBKEY_ADDRESS_TEST = 111,
-        SCRIPT_ADDRESS_TEST = 196,
+        PUBKEY_ADDRESS = 38,
+        SCRIPT_ADDRESS = 63,
+        PUBKEY_ADDRESS_TEST = 34,
+        SCRIPT_ADDRESS_TEST = 59,
     };
 
     bool Set(const CKeyID &id) {
@@ -421,7 +424,7 @@ public:
         bool fExpectTestNet = false;
         switch(nVersion)
         {
-             case (128 + CBitcoinAddress::PUBKEY_ADDRESS):
+            case (128 + CBitcoinAddress::PUBKEY_ADDRESS):
                 break;
 
             case (128 + CBitcoinAddress::PUBKEY_ADDRESS_TEST):
@@ -454,4 +457,4 @@ public:
     }
 };
 
-#endif // BITCOIN_BASE58_H
+#endif

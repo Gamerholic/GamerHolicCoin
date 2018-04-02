@@ -1,7 +1,3 @@
-#if defined(HAVE_CONFIG_H)
-#include "bitcoin-config.h"
-#endif
-
 #include "optionsdialog.h"
 #include "ui_optionsdialog.h"
 
@@ -14,6 +10,8 @@
 #include <QIntValidator>
 #include <QLocale>
 #include <QMessageBox>
+#include <QRegExp>
+#include <QRegExpValidator>
 
 OptionsDialog::OptionsDialog(QWidget *parent) :
     QDialog(parent),
@@ -106,11 +104,17 @@ void OptionsDialog::setModel(OptionsModel *model)
 {
     this->model = model;
 
-    if(model) {
+    if(model)
+    {
+        connect(model, SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
+
         mapper->setModel(model);
         setMapper();
         mapper->toFirst();
     }
+
+    /* update the display unit, to not use the default ("BTC") */
+    updateDisplayUnit();
 
     /* warn only when language selection changes by user action (placed here so init via mapper doesn't trigger this) */
     connect(ui->lang, SIGNAL(valueChanged()), this, SLOT(showRestartWarning_Lang()));
@@ -122,8 +126,10 @@ void OptionsDialog::setModel(OptionsModel *model)
 void OptionsDialog::setMapper()
 {
     /* Main */
+    mapper->addMapping(ui->transactionFee, OptionsModel::Fee);
+    mapper->addMapping(ui->reserveBalance, OptionsModel::ReserveBalance);
     mapper->addMapping(ui->bitcoinAtStartup, OptionsModel::StartAtStartup);
-    mapper->addMapping(ui->checkpointEnforce, OptionsModel::CheckpointEnforce);
+    mapper->addMapping(ui->detachDatabases, OptionsModel::DetachDatabases);
 
     /* Network */
     mapper->addMapping(ui->mapPortUpnp, OptionsModel::MapPortUPnP);
@@ -174,33 +180,6 @@ void OptionsDialog::setSaveButtonState(bool fState)
     ui->okButton->setEnabled(fState);
 }
 
-void OptionsDialog::on_resetButton_clicked()
-{
-    if(model)
-    {
-        // confirmation dialog
-        QMessageBox::StandardButton btnRetVal = QMessageBox::question(this, tr("Confirm options reset"),
-            tr("Some settings may require a client restart to take effect.") + "<br><br>" + tr("Do you want to proceed?"),
-            QMessageBox::Yes | QMessageBox::Cancel, QMessageBox::Cancel);
-
-        if(btnRetVal == QMessageBox::Cancel)
-            return;
-
-        disableApplyButton();
-
-        /* disable restart warning messages display */
-        fRestartWarningDisplayed_Lang = fRestartWarningDisplayed_Proxy = true;
-
-        /* reset all options and save the default values (QSettings) */
-        model->Reset();
-        mapper->toFirst();
-        mapper->submit();
-
-        /* re-enable restart warning messages display */
-        fRestartWarningDisplayed_Lang = fRestartWarningDisplayed_Proxy = false;
-    }
-}
-
 void OptionsDialog::on_okButton_clicked()
 {
     mapper->submit();
@@ -233,6 +212,15 @@ void OptionsDialog::showRestartWarning_Lang()
     {
         QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting OWO."), QMessageBox::Ok);
         fRestartWarningDisplayed_Lang = true;
+    }
+}
+
+void OptionsDialog::updateDisplayUnit()
+{
+    if(model)
+    {
+        /* Update transactionFee with the current unit */
+        ui->transactionFee->setDisplayUnit(model->getDisplayUnit());
     }
 }
 
